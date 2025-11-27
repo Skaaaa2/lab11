@@ -1,0 +1,104 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+table {
+    width: 700px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    background-color: rgb(158, 144, 228);
+}
+
+td {
+    padding: 15px;
+    vertical-align: top;
+}
+
+tr:first-child,
+tr:last-child {
+    background-color: #9484E2;
+}
+
+.menu-container {
+    width: 500px;
+}
+
+.menu-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+ul li a:hover {
+    color: rgb(104, 0, 139);
+    text-decoration: underline;
+}
+.social-container {
+    width: 200px;
+}
+
+.social-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.social-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-list li {
+    margin-bottom: 5px;
+}
+
+.social-list li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.social-list li a:hover {
+    color: rgb(104, 0, 139);
+    text-decoration: underline;
+}
+.address-container {
+    margin-left: 180px; 
+    text-align: left;
+}
+
+.address-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.slider {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
